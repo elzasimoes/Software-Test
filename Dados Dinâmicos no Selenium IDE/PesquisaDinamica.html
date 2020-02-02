@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="https://www.google.com.br/" />
+<title>PesquisaDinamica</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">PesquisaDinamica</td></tr>
+</thead><tbody>
+<!--Conecta a planilha de dados-->
+<tr>
+	<td>readCSV</td>
+	<td>file:\C:\Selenium\Data Driven\dados.csv</td>
+	<td></td>
+</tr>
+<!--Armazena os dados da planilha em variáveis-->
+<tr>
+	<td>storeCellValue</td>
+	<td>pesquisa1</td>
+	<td>2,1</td>
+</tr>
+<tr>
+	<td>storeCellValue</td>
+	<td>pesquisa2</td>
+	<td>3,1</td>
+</tr>
+<tr>
+	<td>storeCellValue</td>
+	<td>pesquisa3</td>
+	<td>4,1</td>
+</tr>
+<tr>
+	<td>storeCellValue</td>
+	<td>pesquisa4</td>
+	<td>5,1</td>
+</tr>
+<!--Acesso o Google-->
+<tr>
+	<td>open</td>
+	<td>/</td>
+	<td></td>
+</tr>
+<!--Informa a primeira pesquisa ########################################-->
+<tr>
+	<td>type</td>
+	<td>id=lst-ib</td>
+	<td>${pesquisa1}</td>
+</tr>
+<!--Clica no botão Pesquisar-->
+<tr>
+	<td>clickAndWait</td>
+	<td>name=btnK</td>
+	<td></td>
+</tr>
+<!--Gera a evidência da primeira pesquisa-->
+<tr>
+	<td>captureEntirePageScreenshot</td>
+	<td>C:\Selenium\Data Driven\pesquisa1.png</td>
+	<td></td>
+</tr>
+<!--Informa a segunda pesquisa ########################################-->
+<tr>
+	<td>type</td>
+	<td>id=lst-ib</td>
+	<td>${pesquisa2}</td>
+</tr>
+<!--Clica no botão Pesquisar-->
+<tr>
+	<td>clickAndWait</td>
+	<td>name=btnK</td>
+	<td></td>
+</tr>
+<!--Gera a evidência da segunda pesquisa-->
+<tr>
+	<td>captureEntirePageScreenshot</td>
+	<td>C:\Selenium\Data Driven\pesquisa2.png</td>
+	<td></td>
+</tr>
+<!--Informa a terceira pesquisa ########################################-->
+<tr>
+	<td>type</td>
+	<td>id=lst-ib</td>
+	<td>${pesquisa3}</td>
+</tr>
+<!--Clica no botão Pesquisar-->
+<tr>
+	<td>clickAndWait</td>
+	<td>name=btnK</td>
+	<td></td>
+</tr>
+<!--Gera a evidência da terceira pesquisa-->
+<tr>
+	<td>captureEntirePageScreenshot</td>
+	<td>C:\Selenium\Data Driven\pesquisa3.png</td>
+	<td></td>
+</tr>
+<!--Informa a quarta pesquisa ########################################-->
+<tr>
+	<td>type</td>
+	<td>id=lst-ib</td>
+	<td>${pesquisa4}</td>
+</tr>
+<!--Clica no botão Pesquisar-->
+<tr>
+	<td>clickAndWait</td>
+	<td>name=btnK</td>
+	<td></td>
+</tr>
+<!--Gera a evidência da quarta pesquisa-->
+<tr>
+	<td>captureEntirePageScreenshot</td>
+	<td>C:\Selenium\Data Driven\pesquisa4.png</td>
+	<td></td>
+</tr>
+
+</tbody></table>
+</body>
+</html>
