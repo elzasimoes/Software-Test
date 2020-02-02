@@ -1,0 +1,49 @@
+Automação em Teste de Software.
+
+Automatizar: Técnica de concender á um dispositivo, a autonomia de controlar o próprio funcionamento, com a mínima interferência humana
+Em teste de Software, consiste no uso de uma ferramenta que imita a interação  do testador para com a aplicação
+
+
+Por que Automatizar os Testes:
+
+Visão geral: Escopo, tempo e custo.
+
+Execução dos testes com a mesma eficiência, porém em menos tempo.
+
+Redução drástica de falhas humanas oriundas de tarefas repetitivas (Teste de Regressão)
+
+Maior disponibilidade dos testadores, que poderão focar em atividades estratégicas
+
+Testes Automatizados x Testes Manuais
+
+O teste manual não pode ser eliminado, mas sim reduzido ao máximo e focado em casos específicos onde seja muito caro automatizar ou que seja necessário de uma decisão humana.
+
+5W: 
+
+2H:
+
+Projete os casos de testes para depois automatizar;
+
+Não pense em automatizar 100% de tudo. Foque na prioridade.
+
+Projete a automação de testes de forma que facilite as revisões;
+
+Inicie a automação de testes o mais cedo possível em um projeto.
+
+O que é Selenium?
+
+É uma suite que composta por 4 ferramentas de automatização de testes para aplicações web, e são elas:
+
+IDE, Remote Control, WebDriver e GRID
+
+Por que usar Selenium?
+
+Criar e executar scripts de testes independente do browser ou sistema operacional;
+
+Realizar Teste de Carga/Estresse através da execução do teste em paralelo;
+
+Adicionar plug-ins que permitem elaborar scripts de testes robustos e que atendem as necessidades dos negócios;
+
+Integrar os scripts de teste a um projeto de teste, seja em Java, C, PHP, Python ou Ruby.
+
+
