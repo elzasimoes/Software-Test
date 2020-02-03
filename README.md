@@ -6,4 +6,4 @@
 <li>Execute os scripts de testes em múltiplos navegadores (Cross Browser Testing)</li>
 <li>Execute testes dirigidos à dados (Data Driven);</li>
 <li>Crie sua própria ferramenta de execução de testes;</li>
-
+<li>Criando testes automáticos com JUnit;</li>
